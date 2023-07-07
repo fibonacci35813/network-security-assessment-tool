@@ -1,4 +1,4 @@
-# Network Security Assessment Tool
+# SecureNetScan (A Network Security Assessment Tool) 
 
 A network security assessment tool designed to automate network scanning, identify vulnerabilities, and enhance network security. The tool utilizes the powerful Nmap scanning engine, integrates with vulnerability databases, and incorporates multithreading for parallel execution.
 
