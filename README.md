@@ -31,7 +31,3 @@ A network security assessment tool designed to automate network scanning, identi
 
 Contributions are welcome! If you have any ideas, suggestions, or improvements, please open an issue or submit a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
