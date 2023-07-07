@@ -21,7 +21,7 @@ A network security assessment tool designed to automate network scanning, identi
 
 ## Getting Started
 
-1. Clone the repository: `git clone https://github.com/your-username/network-security-assessment-tool.git`
+1. Clone the repository: `git clone https://github.com/fibonacci35813/network-security-assessment-tool.git`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Configure the tool by modifying the necessary settings and parameters.
 4. Run the scripts: `python target_scan.py`, `python port_scan.py`, etc.
