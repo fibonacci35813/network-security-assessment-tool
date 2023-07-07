@@ -1,3 +1,5 @@
+import threading
+
 def generate_report(scan_results):
     report = ""
 
@@ -17,7 +19,7 @@ def generate_report(scan_results):
 
 # Sample scan results (replace with your actual scan results)
 sample_scan_results = {
-    "192.168.0.1": {
+    "192.168.1.14": {
         "tcp": {
             "22": {
                 "name": "ssh"
@@ -27,7 +29,7 @@ sample_scan_results = {
             }
         }
     },
-    "192.168.0.2": {
+    "192.168.1.15": {
         "tcp": {
             "443": {
                 "name": "https"
@@ -36,4 +38,7 @@ sample_scan_results = {
     }
 }
 
-generate_report(sample_scan_results)
+# Create a thread for generating the report
+thread = threading.Thread(target=generate_report, args=(sample_scan_results,))
+thread.start()
+thread.join()
